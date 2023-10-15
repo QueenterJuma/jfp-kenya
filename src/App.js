@@ -1,12 +1,15 @@
 import './App.css';
-import Navbar from './pages/Navbar';
+import Navigation from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Navbar />
-      </header>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Home/> } />
+        <Route path='/about' element={<About/> } />
+        <Route path='/contact' element={<Contact/> } />
+      </Routes>
     </div>
   );
 }
