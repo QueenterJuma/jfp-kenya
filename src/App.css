@@ -95,7 +95,7 @@
 
 .mobile-menu-container ul {
   list-style: none;
-  padding: 0;
+  padding: .2em .5em;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -125,6 +125,25 @@
 .menu-link-desktop {
   text-decoration: none;
   color: var(--dark-purple);
+}
+
+.drop-down {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+  width: max-content;
+  justify-content: center;
+  padding: .3em;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.drop-down .drop-item {
+  text-decoration: none;
+  color: var(--purple);
+  font-weight: bold;
+  width: 100%;
+  text-align: start;
 }
 
 @media only screen and (max-width: 600px) {
