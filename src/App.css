@@ -14,17 +14,25 @@
   padding: 0;
 }
 
-.nav {
+.nav-cont {
   width: 100%;
   background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  width: 90%;
+  max-width: 1000px;
   color: var(--dark-purple);
   font-weight: bold;
   padding: .5em 0;
   font-family: 'Asap Condensed', sans-serif;
-  box-shadow: 5px 0 5px #966bab;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #966bab4b;
 }
 
 .logo-cont {
