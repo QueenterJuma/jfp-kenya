@@ -14,8 +14,8 @@ const Footer = () => {
         <h6>About Us</h6>
         <p>To establish a prosperous, industrialized and modern nation, in which all citizens enjoy equal social, economic and democratic rights, and live in unity.</p>
         <div className='social-media-icons'>
-          <a  target='_blank' href='https://web.facebook.com/groups/justusjumafornyakachmp'> <BsFacebook /> </a>
-          <a target='_blank' href='https://twitter.com/JFPPartyKe'> <BsTwitter /> </a>
+          <a  target='_blank' rel='noopener noreferrer' href='https://web.facebook.com/groups/justusjumafornyakachmp'> <BsFacebook /> </a>
+          <a target='_blank' rel='noopener noreferrer' href='https://twitter.com/JFPPartyKe'> <BsTwitter /> </a>
         </div>
       </div>
       <div className='footer-col'>
