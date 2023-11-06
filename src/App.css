@@ -161,12 +161,11 @@
 
 .homepage {
   width: 100%;
-  height: 100vh;
 }
 
 .hero{
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-image: url('./assets/jfp-hero-background.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -223,12 +222,13 @@
 
 .footer {
   width: 100%;
+  min-height: 320px;
   height: max-content;
   display: flex;
+  flex-wrap: wrap;
   gap: 1em;
   justify-content: space-around;
   align-items: center;
-  /* background-color: var(--light-purple); */
   background-image: url('./assets/clenched-fist-KE-flag.jpg');
   background-position: center center;
   background-attachment: fixed;
@@ -238,8 +238,8 @@
 }
 
 .footer-col {
-  width: 25%;
-  min-height: 300px;
+  width: 20%;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -309,6 +309,65 @@
 .social-media-icons a {
   text-decoration: none;
   font-size: 24px;
+}
+
+.register {
+  width: 100%;
+  height: min-content;
+  min-height: 300px;
+  background-image: url('./assets/KE-flag-city.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: var(--white);
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+
+.register section {
+  display: flex;
+  gap: 3em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: #966babcc;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--yellow);
+  padding:  .2em 0;
+  font-size: 40px;
+}
+
+.register h2 {
+  font-size: 30px;
+}
+
+.register a {
+  background: linear-gradient(to bottom, var(--purple), var(--dark-purple));
+  padding: .7em 2em;
+  color: var(--yellow);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.register a:hover {
+  background: linear-gradient(to bottom, var(--dark-purple), var(--purple));
+}
+
+.register a:active {
+  transform: scale(1.2);
 }
 
 @media only screen and (max-width: 600px) {
