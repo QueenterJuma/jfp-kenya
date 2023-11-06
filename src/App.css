@@ -12,14 +12,18 @@
 #root {
   margin: 0 auto;
   padding: 0;
+  position: relative;
 }
 
 .nav-cont {
   width: 100%;
-  background-color: var(--white);
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 0;
+  z-index: 10;
 }
 
 .nav {
@@ -32,7 +36,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #966bab4b;
+  background-color: #9873a5b2;
 }
 
 .logo-cont {
@@ -64,8 +68,9 @@
 }
 
 .bars {
-  color: var(--purple);
+  color: var(--yellow);
   font-size: 1.5em;
+  font-weight: 700;
 }
 
 .bars:hover,
@@ -154,6 +159,158 @@
   text-align: start;
 }
 
+.homepage {
+  width: 100%;
+  height: 100vh;
+}
+
+.hero{
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/jfp-hero-background.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: end;
+}
+
+.hero-content {
+  color: var(--white);
+  width: 100%;
+  height: 70%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 1em;
+  padding: .5em;
+}
+
+.hero h1 {
+  width: 80%;
+  max-width: 700px;
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.hero span,
+.hero p {
+  font-size: 20px;
+  width: 80%;
+  max-width: 900px;
+}
+
+.hero span {
+  color: var(--yellow);
+}
+
+.hero button {
+  width: 200px;
+  height: 50px;
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--dark-purple);
+  margin: 2em 0;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  gap: 1em;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: var(--light-purple); */
+  background-image: url('./assets/clenched-fist-KE-flag.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white);
+}
+
+.footer-col {
+  width: 25%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1em;
+  padding: 1em;
+  background-color: transparent;
+}
+
+.get-in-touch p {
+  padding: .7em 0;
+}
+
+.get-in-touch span {
+  padding-right: .3em;
+}
+
+.footer-col h6 {
+  color: var(--yellow);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-col p {
+  font-size: 16px;
+}
+
+.footer-col span {
+  font-size: 16px;
+  color: var(--yellow);
+}
+
+.footer-col ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.footer-col li {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  border-bottom: 2px dashed var(--yellow);
+  padding: .7em 0;
+  text-align: start;
+}
+
+.footer-col li p {
+  width: 100%;
+}
+
+.footer-col a {
+  width: 100%;
+  white-space: nowrap;
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.social-media-icons {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-media-icons a {
+  text-decoration: none;
+  font-size: 24px;
+}
+
 @media only screen and (max-width: 600px) {
   #mobile-menu {
     display: flex;
@@ -161,5 +318,9 @@
   
   #desktop-menu {
     display: none;
+  }
+
+  .footer-col {
+    width: 90%;
   }
 }
