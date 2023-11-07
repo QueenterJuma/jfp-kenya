@@ -441,6 +441,29 @@
   color: var(--yellow);
 }
 
+.slide-btn {
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: .3em;
+  text-align: center;
+  padding: .3em;
+}
+
+.slide-btn button {
+  background-color: var(--dark-purple);
+  color: var(--yellow);
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+.slide-btn button:active{
+  transform: scale(1.2);
+  background-color: var(--light-purple);
+}
+
 @media only screen and (max-width: 576px) {
   .team-cards .card {
     width: 90%;
