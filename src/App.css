@@ -485,7 +485,7 @@ body {
 }
 
 .news h3 {
-  color: var(--dark-purple);
+  color: var(--yellow);
   border-bottom: 2px dashed var(--yellow);
   padding: .5em 1em;
 }
