@@ -610,6 +610,44 @@ body {
   color: var(--light-purple);
 }
 
+.objectives {
+  width: 100%;
+  background-color: var(--white);
+  color: var(--purple);
+  text-align: center;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .1em;
+  align-items: center;
+}
+
+.objectives .mission,
+.objectives .vission {
+  width: 80%;
+  min-width: 200px;
+  max-width: 700px;
+  margin: 0;
+  padding: 0;
+}
+
+.objectives h2 {
+  color: var(--dark-purple);
+  font-size: 24px;
+  font-weight: 700;
+  border-bottom: 2px dashed var(--light-purple);
+}
+
+.objectives span {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.objectives p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 768px) {
   .team-cards .card {
     width: 90%;
