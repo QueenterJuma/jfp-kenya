@@ -648,6 +648,12 @@ body {
   font-weight: 600;
 }
 
+.map {
+  width: 90%;
+  height: 60vh;
+  margin: 2em 0;
+}
+
 @media only screen and (max-width: 768px) {
   .team-cards .card {
     width: 90%;
