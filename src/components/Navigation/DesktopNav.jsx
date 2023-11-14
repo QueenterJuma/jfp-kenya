@@ -5,8 +5,8 @@ import 'reactjs-popup/dist/index.css';
 
 const DesktopNav = () => {
   const links = [
-    { text: 'HOME', path:'#', options: [{optionName: 'Mission', path: '/mission'}, {optionName: 'Vision', path: '/vision'}] },
-    { text: 'NEWS', path:'/news', options: [{optionName: 'Events', path: '/events'}, {optionName: 'Notices', path: '/notices'}] },
+    { text: 'HOME', path:'/', options: [{optionName: 'Mission', path: '/mission'}, {optionName: 'Vision', path: '/vision'}] },
+    { text: 'NEWS', path:'/news', options: [{optionName: 'Events', path: '/news'}, {optionName: 'News', path: '/news'}] },
     { text: 'RESOURCES', path:'/resources', options: [{optionName: 'Terms & Policy', path: '/terms'}, {optionName: 'Nomination', path: '/nomination'}] },
     { text: 'ABOUT', path:'/about', options: [{optionName: 'History', path: '/history'}, {optionName: 'Value', path: '/value'}, { optionName: 'Our Team', path: '/team'}] },
     { text: 'CONTACT', path:'/contact', options: [] }
