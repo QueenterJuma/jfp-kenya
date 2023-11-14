@@ -240,7 +240,7 @@ body {
   flex-wrap: wrap;
   gap: 1em;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   background-image: url('./assets/clenched-fist-KE-flag.jpg');
   background-position: center center;
   background-attachment: fixed;
@@ -254,7 +254,7 @@ body {
   min-height: 200px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: space-around;
   gap: 1em;
   padding: 1em;
   background-color: transparent;
@@ -441,7 +441,7 @@ body {
 
 .social-links {
   width: 100%;
-  height: 25%;
+  height: 15%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -646,6 +646,77 @@ body {
 .objectives p {
   font-size: 18px;
   font-weight: 600;
+}
+
+.news-page {
+  padding: 3em .5em;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.news-page .news-content,
+.news-page .events-content {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-page .news-content h1,
+.news-page .events-content h3 {
+  font-size: 20px;
+  color: var(--dark-purple);
+  text-transform: uppercase;
+  border-bottom: 2px dashed var(--light-purple);
+  padding: .5em 2em;
+  width: fit-content;
+}
+
+.news-page .news-content .news-list,
+.news-page .events-content .events-list {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+  align-items: center;
+  width: 100%;
+}
+
+.news-page .news-card,
+.news-page .event-card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  height: 200px;
+  background-color: #966bab;
+}
+
+.news-page .news-card .image-content,
+.news-page .event-card .image-content {
+  width: 40%;
+  height: 100%;
+}
+
+.news-page .news-card .text-content,
+.news-page .event-card .text-content {
+  width: 50%;
+}
+
+.news-page .news-card .text-content h2,
+.news-page .event-card .text-content h2 {
+  color: var(--white);
+}
+
+.news-page .news-card .image-content img,
+.news-page .event-card .image-content img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
