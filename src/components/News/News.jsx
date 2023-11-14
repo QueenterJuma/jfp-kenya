@@ -15,7 +15,7 @@ const News = () => {
             <div className='pri-news-cont'>
               <h4> {news.title} </h4>
               <p> {news.description} </p>
-              <a href=''>READ MORE</a>
+              <a href='/news'>READ MORE</a>
             </div>
             <div className='pri-news-img-cont'>
               <img src={news.image} alt={news.title} />
@@ -32,7 +32,7 @@ const News = () => {
               <div className='other-news-cont'>
                 <h4> {news.title} </h4>
                 <p> {news.description.slice(0, 100)}... </p>
-                <a href=''>READ MORE</a>
+                <a href='/news'>READ MORE</a>
               </div>
             </div>
           ))}
