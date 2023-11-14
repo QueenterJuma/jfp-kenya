@@ -4,6 +4,7 @@ import Register from '../components/Homepage/Register';
 import Team from '../components/About/Team';
 import News from '../components/News/News';
 import Mission from '../components/Mission/Mission';
+import Map from '../components/Map/Map';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Register />
       <News />
       <Team />
+      <Map />
     </div>
   )
 }
