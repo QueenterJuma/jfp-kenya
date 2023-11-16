@@ -4,6 +4,7 @@ import Navbar from './components/Navigation/Navbar'
 import Home from './pages/Home'
 import Footer from './components/Footer'
 import News from './pages/News';
+import Resources from './components/Resources/Resources'
 
 function App() {
 
@@ -14,8 +15,8 @@ function App() {
         <Routes>
           <Route path='/' element={ <Home /> } />
           <Route path='/news' element={ <News /> } />
-          {/* <Route path='/resources' element={ <Resources /> } />
-          <Route path='/about' element={ <About /> } />
+          <Route path='/resources' element={ <Resources /> } />
+        {/*  <Route path='/about' element={ <About /> } />
           <Route path='/contact' element={ <Contact /> } /> */}
         </Routes>
 
