@@ -719,6 +719,49 @@ body {
   width: 100%;
 }
 
+.resources {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  padding: 2em .5em;
+  padding-top: 5em;
+  text-align: center;
+  background-color: var(--white);
+}
+
+.resources h1 {
+  color: var(--dark-purple);
+  text-transform: uppercase;
+  border-bottom: 2px dashed var(--light-purple);
+  padding: .2em 2em;
+}
+
+.resources p {
+  color: var(--purple);
+  width: 80%;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.resources button {
+  cursor: pointer;
+  color: var(--purple);
+  background-color: var(--light-purple);
+  border: none;
+  box-shadow: 1px 1px 1px var(--light-purple);
+  padding: 1em 2em;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.resources button:active {
+  transform: scale(1.1);
+  color: var(--yellow);
+}
+
 @media only screen and (max-width: 768px) {
   .team-cards .card {
     width: 90%;
