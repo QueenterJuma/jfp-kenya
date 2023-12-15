@@ -17,7 +17,7 @@ export const TeamList = [
     ]
   },
   {
-    name: 'Jennifer Njeri Kanarie Smith',
+    name: 'Jennifer Njeri Kanarie',
     position: 'Secretary General',
     photo: Team2,
    socialLinks: [
