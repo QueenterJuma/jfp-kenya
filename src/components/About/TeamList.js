@@ -1,6 +1,6 @@
 import Team1 from '../../assets/Team1-Isaac.jpg'
 import Team2 from '../../assets/Team2-Jennifer.jpg'
-import Team3 from '../../assets/Team3-Carrolly.jpg'
+import Team3 from '../../assets/Team3-Carroly.jpg'
 import Team4 from '../../assets/Team4-Hellen.jpg'
 import Team5 from '../../assets/Team5-Kenneth.jpg'
 
