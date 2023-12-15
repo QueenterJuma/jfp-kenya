@@ -7,7 +7,7 @@ import Team5 from '../../assets/Team5-Kenneth.jpg'
 export const TeamList = [
   {
     name: 'Isaac Aluoch Aluochier',
-    position: 'Chairman',
+    role: 'Chairman',
     photo: Team1,
    socialLinks: [
       { name: 'Facebook', url: 'john.doe.facebook' },
@@ -18,7 +18,7 @@ export const TeamList = [
   },
   {
     name: 'Jennifer Njeri Kanarie',
-    position: 'Secretary General',
+    role: 'Secretary General',
     photo: Team2,
    socialLinks: [
       { name: 'Facebook', url: 'john.doe.facebook' },
@@ -29,7 +29,7 @@ export const TeamList = [
   },
   {
     name: 'Carrolly Omulo',
-    position: 'Deputy Sec. General ',
+    role: 'Deputy Sec. General ',
     photo: Team3,
    socialLinks: [
       { name: 'Facebook', url: 'john.doe.facebook' },
@@ -40,7 +40,7 @@ export const TeamList = [
   },
   {
     name: 'Hellen Akoth Omolo Mtawali',
-    position: 'Organizing Secretary',
+    role: 'Organizing Secretary',
     photo:  Team4,
    socialLinks: [
       { name: 'Facebook', url: 'john.doe.facebook' },
@@ -51,7 +51,7 @@ export const TeamList = [
   },
   {
     name: 'Kenneth Mburu Nyoike',
-    position: 'Deputy Organizing Secretary',
+    role: 'Deputy Organizing Secretary',
     photo: Team5,
    socialLinks: [
       { name: 'Facebook', url: 'john.doe.facebook' },
