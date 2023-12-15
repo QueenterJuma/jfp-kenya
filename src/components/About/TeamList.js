@@ -1,10 +1,14 @@
-import Photo from '../../assets/Team-member.jpg'
+import Team1 from '../../assets/Team1-Isaac.jpg'
+import Team2 from '../../assets/Team2-Jennifer.jpg'
+import Team3 from '../../assets/Team3-Carrolly.jpg'
+import Team4 from '../../assets/Team4-Hellen.jpg'
+import Team5 from '../../assets/Team5-Kenneth.jpg'
 
 export const TeamList = [
   {
-    name: 'John Doe',
-    position: 'CEO',
-    photo: Photo,
+    name: 'Isaac Aluoch Aluochier',
+    position: 'Chairman',
+    photo: Team1,
    socialLinks: [
       { name: 'Facebook', url: 'john.doe.facebook' },
       { name: 'Twitter', url: 'john_doe_twitter' },
@@ -13,9 +17,9 @@ export const TeamList = [
     ]
   },
   {
-    name: 'Jane Smith',
-    position: 'CTO',
-    photo: Photo,
+    name: 'Jennifer Njeri Kanarie Smith',
+    position: 'Secretary General',
+    photo: Team2,
    socialLinks: [
       { name: 'Facebook', url: 'john.doe.facebook' },
       { name: 'Twitter', url: 'john_doe_twitter' },
@@ -24,9 +28,9 @@ export const TeamList = [
     ]
   },
   {
-    name: 'Bob Johnson',
-    position: 'Marketing Manager',
-    photo: Photo,
+    name: 'Carrolly Omulo',
+    position: 'Deputy Sec. General ',
+    photo: Team3,
    socialLinks: [
       { name: 'Facebook', url: 'john.doe.facebook' },
       { name: 'Twitter', url: 'john_doe_twitter' },
@@ -35,9 +39,9 @@ export const TeamList = [
     ]
   },
   {
-    name: 'Alice Lee',
-    position: 'Designer',
-    photo:  Photo,
+    name: 'Hellen Akoth Omolo Mtawali',
+    position: 'Organizing Secretary',
+    photo:  Team4,
    socialLinks: [
       { name: 'Facebook', url: 'john.doe.facebook' },
       { name: 'Twitter', url: 'john_doe_twitter' },
@@ -45,15 +49,15 @@ export const TeamList = [
       { name: 'LinkedIn', url: 'john-doe-linkedin' },
     ]
   },
-  // {
-  //   name: 'Michael Brown',
-  //   position: 'Developer',
-  //   photo: Photo,
-  //  socialLinks: [
-  //     { name: 'Facebook', url: 'john.doe.facebook' },
-  //     { name: 'Twitter', url: 'john_doe_twitter' },
-  //     { name: 'Instagram', url: 'john_doe_instagram' },
-  //     { name: 'LinkedIn', url: 'john-doe-linkedin' },
-  //   ]
-  // }
+  {
+    name: 'Kenneth Mburu Nyoike',
+    position: 'Deputy Organizing Secretary',
+    photo: Team5,
+   socialLinks: [
+      { name: 'Facebook', url: 'john.doe.facebook' },
+      { name: 'Twitter', url: 'john_doe_twitter' },
+      { name: 'Instagram', url: 'john_doe_instagram' },
+      { name: 'LinkedIn', url: 'john-doe-linkedin' },
+    ]
+  }
 ];
