@@ -56,7 +56,7 @@ const Team = () => {
               <img src={member.photo} alt={member.name} />
             </div>
             <h4>{member.name}</h4>
-            <p>{member.role}</p>
+            <p className='role'>{member.role}</p>
             <div className="social-links">
               {member.socialLinks.map((link, index) => (
                 <a key={index} href={link.url} target="_blank" rel="noopener noreferrer">
