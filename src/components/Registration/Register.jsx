@@ -1,5 +1,7 @@
 import React from 'react'
 import { TbStarsFilled } from 'react-icons/tb'
+import { Link } from 'react-router-dom';
+
 const Register = () => {
   return (
     <div className='register'>
@@ -10,7 +12,10 @@ const Register = () => {
           <p>Experience the party that genuinely cares about you.</p>
         </div>
         <div>
-          <a href=''>REGISTER</a>
+          <Link to="/membership">
+            <button>REGISTER</button>
+          {/* <a href=''>REGISTER</a> */}
+          </Link>
         </div>
       </section>
     </div>
