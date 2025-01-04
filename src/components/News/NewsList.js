@@ -1,17 +1,10 @@
+import Statement2023 from '../../assets/statement2023-24.png'
+
 export const NewsList = [
   {
-    title: 'Political Event X',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In political news today, Event X took place, and it had a significant impact on the political landscape.',
-    image: 'https://www.everythingbranded.com/cdn-cgi/image/quality=70/slir/w1120-h512-c6x3/assets/media/2023/08/10/political-merchandise-ideas-for-your-election-campaign.png',
+    title: 'Congratulations to JFP on the Approval of Our Financial Statement for FY 2023/24',
+    description: 'We are delighted to announce that the Office of the Registrar of Political Parties (ORPP) has officially acknowledged and approved the Justice and Freedom Party (JFP) financial statements for the financial year 2023/24. This milestone reflects our unwavering commitment to transparency, accountability, and adherence to legal requirements as outlined in Section 29 of the Political Parties Act, 2011.',
+    image: Statement2023,
   }
-  // {
-  //   title: 'New Government Policy Announcement',
-  //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. The government announced a new policy aimed at addressing key issues in the country, garnering mixed reactions from the public.',
-  //   image: 'https://www.everythingbranded.com/cdn-cgi/image/quality=70/slir/w1120-h512-c6x3/assets/media/2023/08/10/political-merchandise-ideas-for-your-election-campaign.png',
-  // },
-  // {
-  //   title: 'Election Results',
-  //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. The results of the recent elections are in, and they will have a major influence on the future of our nation.',
-  //   image: 'https://www.everythingbranded.com/cdn-cgi/image/quality=70/slir/w1120-h512-c6x3/assets/media/2023/08/10/political-merchandise-ideas-for-your-election-campaign.png',
-  // }
+  
 ];
