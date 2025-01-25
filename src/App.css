@@ -498,7 +498,6 @@ body {
 
 .news-cont {
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   padding: 2em;
@@ -511,7 +510,7 @@ body {
   height: 100%;
   min-height: 450px;
   display: flex;
-  position: relative;
+  /* position: relative; */
 }
 
 .pri-news-cont {

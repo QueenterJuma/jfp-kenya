@@ -17,9 +17,9 @@ const News = () => {
               <p> {news.description} </p>
               <a href='/news'>READ MORE</a>
             </div>
-            <div className='pri-news-img-cont'>
+            {/* <div className='pri-news-img-cont'>
               <img src={news.image} alt={news.title} />
-            </div>
+            </div> */}
           </div>
         ))}
 
