@@ -1,7 +1,7 @@
 import React from 'react'
 import MobileNav from './MobileNav';
 import DesktopNav from './DesktopNav';
-import Logo from '/log.png'
+import Logo from '/log1.jpg';
 
 const Navbar = () => {
   return (
