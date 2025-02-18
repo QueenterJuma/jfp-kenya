@@ -729,6 +729,8 @@ body {
   color: var(--yellow);
 }
 
+
+
 @media only screen and (max-width: 768px) {
   .team-cards .card {
     width: 90%;
@@ -756,11 +758,14 @@ body {
   }
 }
 
-.prinews{
+/* .prinews{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   gap: 3rem;
   justify-content: center;
-}
+} */
 
 .newscontent{
   display: flex;
@@ -770,8 +775,8 @@ body {
 }
 
 .priNews1{
-  width: 40%;
-  background-color: #351544;
+  width: fit;
+  /* background-color: #351544; */
 }
 
 .priNews1 img{
@@ -781,7 +786,7 @@ body {
 }
 
 .priNews2{
-  width: 40%;
+  width: 90%;
   background-color: #fff;
   height: fit-content;
   padding: 2%;
@@ -793,4 +798,101 @@ body {
   align-items: center;
   width: 100%;
   background-color: #732f8c;
+}
+
+/* media query */
+
+.news {
+  padding: 20px;
+ 
+}
+
+.newscontent {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  gap: 20px;
+}
+
+.prinews {
+  display: flex;
+  justify-items:center;
+  padding-left: 5%;
+  padding-right: 5%;
+  /* align-items: center; */
+  /* margin-left: 10%; */
+  flex: 1;
+  gap: 20px;
+}
+
+.priNews1 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* .priNews2 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+/* Responsive styles */
+
+/* Tablets and small laptops */
+@media (max-width: 1024px) {
+  .newscontent {
+    flex-direction: column;
+  }
+
+  .prinews {
+    flex-direction: column;
+    
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+  .news {
+    padding: 10px;
+  }
+
+  .newscontent {
+    gap: 10px;
+  }
+
+  .prinews {
+    flex-direction: column;
+  }
+
+  .priNews1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .priNews2 h4 {
+    font-size: 1.2rem;
+  }
+
+  .priNews2 p {
+    font-size: 1rem;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  .news h3 {
+    font-size: 1.5rem;
+  }
+
+  .priNews2 h4 {
+    font-size: 1rem;
+  }
+
+  .priNews2 p {
+    font-size: 0.9rem;
+  }
 }
