@@ -9,21 +9,23 @@ const News = () => {
     <div className='news'>
       <h3> LATEST NEWS </h3>
 
-      <div className='news-cont'>
+      <div className='newscontent' >
         {firstNews.map((news, index) => (
-          <div key={index} className='pri-news'>
-            <div className='pri-news-cont'>
+          <div key={index} className=' prinews'>
+            <div className='priNews1'>
+              <img src={news.image} alt={news.title} />
+            </div>
+            <div className='priNews2'>
               <h4> {news.title} </h4>
               <p> {news.description} </p>
               <a href='/news'>READ MORE</a>
             </div>
-            <div className='pri-news-img-cont'>
-              <img src={news.image} alt={news.title} />
-            </div>
+            
           </div>
         ))}
+       </div>
 
-        <div className='other-news'>
+        {/* <div className='other-news'>
           {secondNews.map((news, index) => (
             <div key={index} className='card-layout'>
               <div className='other-news-img-cont'>
@@ -36,8 +38,8 @@ const News = () => {
               </div>
             </div>
           ))}
-        </div>
-      </div>
+      
+        </div> */}
     </div>
   );
 }

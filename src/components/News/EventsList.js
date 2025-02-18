@@ -1,17 +1,10 @@
+import Xspace from '../../assets/xspace.png'
+
 export const EventsList = [
   {
-    title: 'Political Event X',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In political news today, Event X took place, and it had a significant impact on the political landscape.',
-    image: 'https://www.everythingbranded.com/cdn-cgi/image/quality=70/slir/w1120-h512-c6x3/assets/media/2023/08/10/political-merchandise-ideas-for-your-election-campaign.png',
+    title: 'JFP X-Space Event: Shaping the Future of Kenya 🇰🇪',
+    description: 'Catch up with the Justice and Freedom Party (JFP) on an engaging and insightful X-Space discussion, where we delve into critical national issues, governance, and the future of our beloved country.',
+    link: 'https://x.com/JFPPartyKe',
+    image: Xspace,
   }
-  // {
-  //   title: 'Political Event X',
-  //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In political news today, Event X took place, and it had a significant impact on the political landscape.',
-  //   image: 'https://www.everythingbranded.com/cdn-cgi/image/quality=70/slir/w1120-h512-c6x3/assets/media/2023/08/10/political-merchandise-ideas-for-your-election-campaign.png',
-  // },
-  // {
-  //   title: 'Political Event X',
-  //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In political news today, Event X took place, and it had a significant impact on the political landscape.',
-  //   image: 'https://www.everythingbranded.com/cdn-cgi/image/quality=70/slir/w1120-h512-c6x3/assets/media/2023/08/10/political-merchandise-ideas-for-your-election-campaign.png',
-  // }
 ];

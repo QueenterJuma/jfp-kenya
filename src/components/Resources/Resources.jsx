@@ -1,42 +1,29 @@
 import React from 'react'
 import { BsDownload } from 'react-icons/bs';
-const TERMS_AND_CONDITIONS = '/Terms & Conditions sample.png';
-const NOMINATION_FORM = '/Nomination form.png';
+import CONSTITUTION from '/Constitution.pdf';
+import REGISTRATION from '/Reg-Procedure.pdf';
 
 const Resources = () => {
-  const handleDownload = (url) => {
-    const filename = url.split("/").pop();
-    
-    const aTag = document.createElement("a");
-    aTag.href = url;
-    aTag.setAttribute("download", filename);
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
-  };
-
   return (
     <div className='resources'>
       <h1>Resources</h1>
 
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo earum excepturi ipsum in quo, consectetur alias cum id esse ea ab, suscipit incidunt. Soluta repellendus quisquam quaerat aliquam ipsum molestiae.</p>
-      <button
+      <p>Welcome to the Justice and Freedom Party (JFP) Resources Page, your go-to hub for essential documents, policies, and educational materials. Here, you will find valuable resources that outline our vision, mission, and strategies for a just and free society.</p>
+     <a href={CONSTITUTION} target='_blank' download> <button
         type='button'
-        onClick={() => handleDownload(TERMS_AND_CONDITIONS)}
         className=""
-        title="Terms & Conditions"
+        title="Constitution"
       >
-        Terms & Conditions <BsDownload />
-      </button>
+        Constitution <BsDownload />
+      </button> </a>
 
-      <button
+      <a href={REGISTRATION} target='_blank' download><button
         type='button'
-        onClick={() => handleDownload(NOMINATION_FORM)}
         className=""
-        title="Nomination Form"
+        title="Registration"
       >
-        Nomination Form <BsDownload />
-      </button>
+        Registration Procedure <BsDownload />
+      </button></a>
     </div>
   )
 }
