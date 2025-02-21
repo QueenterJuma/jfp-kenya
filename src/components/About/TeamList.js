@@ -17,7 +17,7 @@ export const TeamList = [
     ]
   },
   {
-    name: 'Jennifer Njeri Kanarie',
+    name: 'Jennifer Njeri Kanari',
     role: 'Secretary General',
     photo: Team2,
    socialLinks: [
@@ -28,7 +28,7 @@ export const TeamList = [
     ]
   },
   {
-    name: 'Carrolly Omulo',
+    name: 'Carroly"s Omulo',
     role: 'Deputy Sec. General ',
     photo: Team3,
    socialLinks: [
