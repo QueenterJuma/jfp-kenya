@@ -38,7 +38,7 @@ const Footer = () => {
       <div className='footer-col get-in-touch'>
         <h6>Get In Touch</h6>
         <ul>
-         <p> <span> <BsFillTelephoneForwardFill /> </span> +254 701234567 </p>
+         <p> <span> <BsFillTelephoneForwardFill /> </span> +254 718212888 </p>
          <p> <span> <HiMailOpen /> </span> JFPPartyKe@gmail.com</p>
          <p> <span> <BsFillPinMapFill /> </span> Nairobi, Kenya </p>
         </ul>
