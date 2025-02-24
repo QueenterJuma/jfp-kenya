@@ -5,7 +5,7 @@ function Mission() {
     <div className="mission-container">
       {/* Left Side */}
       <div className="mission-left">
-        <p className="welcome-text">Welcome</p>
+        <p className="welcome-text">Welcome To</p>
         <div className="thin-line"></div>
         <p className="party-name">Justice & Freedom <br /> Party of Kenya</p>
         <div className="thin-line"></div>

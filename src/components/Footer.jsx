@@ -5,7 +5,10 @@ export default function Footer() {
         {/* About Section */}
         <div className="footer-section">
           <h3>About</h3>
-          <p>JFP is committed to bringing positive change and inclusivity.</p>
+          <p>To be a conduit to equip, nurture and
+protect social and democratic society
+for edifying of the citizen to unity till
+we be complete and effective globally.</p>
         </div>
 
         {/* Quick Links Section */}
@@ -25,7 +28,7 @@ export default function Footer() {
           <p>Phone: +254 701234567</p>
           <p>Email: JFPPartyKe@gmail.com</p>
           <div className="button-group">
-            <button className="btn-footer">Join Now</button>
+            <button className="btn-footer1">Join Now</button>
             <button className="btn-footer">Contact Support</button>
           </div>
         </div>
