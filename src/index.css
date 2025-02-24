@@ -251,7 +251,7 @@
     display: none;
     font-size: 24px;
     cursor: pointer;
-    color: white;
+    color: rgb(4, 4, 4);
   }
   
   /* Mobile Menu */
@@ -430,8 +430,6 @@
     font-size: 18px;
     color: #333;
   }
-/* 
-  //footer */
 
   /* Footer Container */
 .footer {
