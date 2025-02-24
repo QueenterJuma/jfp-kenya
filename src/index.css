@@ -27,6 +27,7 @@
   
   .highlight {
     color: rgb(237, 233, 7); 
+    font-size: 2.0rem;
   }
   
   .banner-text {
@@ -152,13 +153,14 @@
   }
   /* Top Navbar */
 .top-navbar {
-    background-color: #333;
+    background-color: #73047d;
+
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 8px 16px;
-    font-size: 14px;
+    font-size: 18px;
   }
   
   .contact-info {
@@ -174,64 +176,74 @@
   
   .social-icons {
     display: flex;
-    gap: 10px;
+    gap: 15px;
   }
   
   .social-icon {
     cursor: pointer;
     transition: color 0.3s;
+    gap: 20px;
   }
   
   .social-icon:hover {
-    color: lightblue;
+    color: rgb(228, 230, 173);
   }
   
   /* Bottom Navbar */
   .navbar {
-    background-color: #007bff;
+    background-color: #ffff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 16px;
+    /* padding: 16px; */
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    color: black;
   }
   
   .logo {
     font-size: 24px;
     font-weight: bold;
-    color: white;
+    color: rgb(17, 2, 2);
   }
+
+ 
   
   /* Navigation Links */
   .nav-links {
     display: flex;
     list-style: none;
     gap: 20px;
+    color: black;
   }
   
   .nav-item {
     cursor: pointer;
-    color: white;
+    color: rgb(4, 4, 4);
     transition: color 0.3s;
+    font-weight: 600;
+    font-size: 18px;
   }
   
   .nav-item:hover {
-    color: #0056b3;
+    color: #4b045a;
   }
   
   /* Register Button */
   .register-btn {
-    background-color: #0056b3;
-    color: white;
+    background-color: #f8bf04;
+    color: rgb(67, 4, 85);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: 600;
     transition: background-color 0.3s;
   }
   
   .register-btn:hover {
-    background-color: #003d82;
+    border: 2px solid black;
+    background-color: inherit;
+    color: #3c024f;
   }
   
   /* Hamburger Menu (for mobile) */
@@ -425,7 +437,7 @@
 .footer {
     display: flex;
     flex-direction: column;
-    background: #333;
+    background-color: #450243;
     color: white;
     padding: 20px 20px;
     text-align: center;

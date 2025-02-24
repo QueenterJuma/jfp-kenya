@@ -8,7 +8,7 @@ function Homepage() {
   return (
     <div>
       {/* Top Navbar */}
-      <div className="top-navbar">
+      <div className=" top-navbar">
         <div className="contact-info">
           <span className="contact-item"><FaEnvelope /> email@example.com</span>
           <span className="contact-item"><FaPhone /> +123 456 7890</span>
@@ -23,8 +23,9 @@ function Homepage() {
       {/* Bottom Navbar */}
       <nav className="navbar">
         {/* Logo */}
+        
         <div className="logo">LOGO</div>
-
+         <div>
         {/* Menu Items - Visible on Medium & Large Screens */}
         <ul className="nav-links">
           <li className="nav-item">Home</li>
@@ -32,9 +33,12 @@ function Homepage() {
           <li className="nav-item">Services</li>
           <li className="nav-item">Contact</li>
         </ul>
+        </div>
 
         {/* Register Button - Visible on Medium & Large Screens */}
+        <div>
         <button className="register-btn">Register</button>
+        </div>
 
         {/* Hamburger Menu - Only Visible on Small Screens */}
         <div className="hamburger-menu" onClick={() => setMenuOpen(!menuOpen)}>
