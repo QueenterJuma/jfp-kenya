@@ -232,7 +232,7 @@ body {
   cursor: pointer;
 }
 
-.footer {
+/* .footer {
   width: 100%;
   min-height: 320px;
   height: max-content;
@@ -247,7 +247,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--white);
-}
+} */
 
 .footer-col {
   width: 20%;
