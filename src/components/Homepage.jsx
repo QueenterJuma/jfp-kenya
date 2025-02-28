@@ -1,6 +1,7 @@
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 import { FaBars, FaTimes, FaPhone, FaEnvelope, FaTwitter, FaLinkedin, FaFacebook } from "react-icons/fa";
-
+import Logo from '../assets/log1.jpg'
 
 function Homepage() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,15 +25,16 @@ function Homepage() {
       <nav className="navbar">
         {/* Logo */}
         
-        <div className="logo">LOGO</div>
-         <div>
+        {/* <div className="logo">{Logo}</div> */}
+        <div className="logo"><img src={Logo} alt='JFP Logo' /></div>
+         
         {/* Menu Items - Visible on Medium & Large Screens */}
-        <ul className="nav-links">
-          <li className="nav-item">Home</li>
-          <li className="nav-item">About</li>
-          <li className="nav-item">Services</li>
-          <li className="nav-item">Contact</li>
-        </ul>
+        <div className="nav-links"> 
+          <Link to='/' className="nav-item">Home</Link>
+          <Link to='news' className="nav-item">News</Link>
+          <Link to='resources' className="nav-item">Resources</Link>
+          <Link to='about' className="nav-item">About</Link>
+          <Link to='contact className="nav-item"'>Contacts</Link>
         </div>
 
         {/* Register Button - Visible on Medium & Large Screens */}
@@ -48,13 +50,15 @@ function Homepage() {
 
       {/* Mobile Menu (Only visible when menu is open) */}
       {menuOpen && (
-        <ul className="mobile-menu">
-          <li className="mobile-item">Home</li>
-          <li className="mobile-item">About</li>
-          <li className="mobile-item">Services</li>
-          <li className="mobile-item">Contact</li>
+        <div className="mobile-menu">
+          <Link to='/' className="mobile-item">Home</Link>
+          <Link to='news' className="mobile-item">News</Link>
+          <Link to='resources' className="mobile-item">Resources</Link>
+          <Link to='about' className="mobile-item">About</Link>
+          <Link to='contact className="mobile-item"'>Contacts</Link>
           <button className="mobile-register-btn">Register</button>
-        </ul>
+        </div>
+        
       )}
     </div>
   );
