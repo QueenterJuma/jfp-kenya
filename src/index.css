@@ -200,10 +200,8 @@
     color: black;
   }
   
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: rgb(17, 2, 2);
+  .logo img {
+    width: 10%;
   }
 
  
@@ -222,6 +220,7 @@
     transition: color 0.3s;
     font-weight: 600;
     font-size: 18px;
+    text-decoration: none;
   }
   
   .nav-item:hover {
@@ -272,6 +271,7 @@
     padding: 10px;
     cursor: pointer;
     transition: color 0.3s;
+    text-decoration: none;
   }
   
   .mobile-item:hover {
@@ -429,6 +429,12 @@
     margin-top: 10px;
     font-size: 18px;
     color: #333;
+  }
+
+  .team-card p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #e6b800;
   }
 
   /* Footer Container */
