@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes, FaPhone, FaEnvelope, FaTwitter, FaLinkedin, FaFacebook } from "react-icons/fa";
+import REGISTRATION from '/Reg-Procedure.pdf';
 import Logo from '../assets/log1.jpg'
 
 function Homepage() {
@@ -11,7 +12,7 @@ function Homepage() {
       {/* Top Navbar */}
       <div className=" top-navbar">
         <div className="contact-info">
-          <span className="contact-item"><FaEnvelope /> JFPkenya@gmail.com</span>
+          <span className="contact-item"><FaEnvelope /> justiceandfreedompartyofkenya@gmail.com</span>
           <span className="contact-item"><FaPhone /> +254718212888</span>
         </div>
         
@@ -43,8 +44,11 @@ function Homepage() {
 
         {/* Register Button - Visible on Medium & Large Screens */}
         <div>
-        <button className="register-btn">Register</button>
+          <a href={REGISTRATION} target='_blank' download>
+            <button type='button'className="register-btn" title="Registration">Register</button>
+          </a>
         </div>
+        {/* <button className="register-btn">Register</button> */}
 
         {/* Hamburger Menu - Only Visible on Small Screens */}
         <div className="hamburger-menu" onClick={() => setMenuOpen(!menuOpen)}>
@@ -60,7 +64,10 @@ function Homepage() {
           <Link to='resources' className="mobile-item"onClick={() => setMenuOpen(false)}>Resources</Link>
           <Link to='about' className="mobile-item" onClick={() => setMenuOpen(false)}>About</Link>
           <Link to='contacts' className="mobile-item" onClick={() => setMenuOpen(false)}>Contacts</Link>
-          <button className="mobile-register-btn" onClick={() => setMenuOpen(false)}>Register</button>
+          <a href={REGISTRATION} target='_blank' download>
+            <button type='button'className="mobile-register-btn" title="Registration" onClick={() => setMenuOpen(false)}>Register</button>
+          </a>
+          {/* <button className="mobile-register-btn" onClick={() => setMenuOpen(false)}>Register</button> */}
         </div>
         
       )}

@@ -1,3 +1,7 @@
+import React from 'react'
+import { BsDownload } from 'react-icons/bs';
+import CONSTITUTION from '/Constitution.pdf';
+import REGISTRATION from '/Reg-Procedure.pdf';
 import Membership from "./Membership";
 import Mission from "./Mission";
 import Team from "./Team";
@@ -16,8 +20,13 @@ function Banner() {
           equal social, economic and democratic rights, and live in unity.
         </p>
         <div className="banner-buttons">
-          <button className="btn btn-primary">REGISTER</button>
-          <button className="btn btn-secondary">OUR CONSTITUTION</button>
+          <a href={REGISTRATION} target='_blank' download>
+            <button type='button'className="btn btn-primary" title="Registration" onClick={() => setMenuOpen(false)}>REGISTER</button>
+          </a>
+          <a href={CONSTITUTION} target='_blank' download>
+            <button className="btn btn-secondary" title="Constitution">OUR CONSTITUTION <BsDownload /></button>
+          </a>
+          
         </div>
       </div>
 

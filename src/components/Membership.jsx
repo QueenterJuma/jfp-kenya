@@ -1,3 +1,7 @@
+import React from 'react'
+import { BsDownload } from 'react-icons/bs';
+import CONSTITUTION from '/Constitution.pdf';
+import REGISTRATION from '/Reg-Procedure.pdf';
 
 function Membership() {
   return (
@@ -6,8 +10,12 @@ function Membership() {
         <h2>JFP Membership</h2>
         <p>Join JFP and experience the party that genuinely cares about you!</p>
         <div className="button-group">
-          <button className="btn-join">OUR CONSTITUTION</button>
-          <button className="btn-learn">REGISTER NOW </button>
+        <a href={CONSTITUTION} target='_blank' download>
+            <button className="btn-join" title="Constitution">OUR CONSTITUTION <BsDownload /></button>
+          </a>
+          <a href={REGISTRATION} target='_blank' download>
+            <button type='button'className="btn-learn" title="Registration" onClick={() => setMenuOpen(false)}>REGISTER NOW</button>
+          </a>
         </div>
       </div>
     </div>

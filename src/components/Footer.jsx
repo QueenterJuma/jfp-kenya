@@ -1,3 +1,6 @@
+import React from "react";
+import REGISTRATION from '/Reg-Procedure.pdf';
+
 export default function Footer() {
   return (
     <footer className="container footer">
@@ -25,10 +28,12 @@ we be complete and effective globally.</p>
         {/* Contact Section */}
         <div className="footer-section contact">
           <h3>Contact Us</h3>
-          <p>Phone: +254 701234567</p>
-          <p>Email: JFPPartyKe@gmail.com</p>
+          <p>Phone: +254 718212888</p>
+          <p>Email: justiceandfreedompartyofkenya@gmail.com</p>
           <div className="button-group">
-            <button className="btn-footer1">Join Now</button>
+            <a href={REGISTRATION} target='_blank' download>
+              <button type='button'className="btn-footer1" title="Registration" onClick={() => setMenuOpen(false)}>Join Now</button>
+            </a>
             <button className="btn-footer">Contact Support</button>
           </div>
         </div>
