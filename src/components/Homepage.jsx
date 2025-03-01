@@ -11,30 +11,34 @@ function Homepage() {
       {/* Top Navbar */}
       <div className=" top-navbar">
         <div className="contact-info">
-          <span className="contact-item"><FaEnvelope /> email@example.com</span>
-          <span className="contact-item"><FaPhone /> +123 456 7890</span>
+          <span className="contact-item"><FaEnvelope /> JFPkenya@gmail.com</span>
+          <span className="contact-item"><FaPhone /> +254718212888</span>
         </div>
+        
         <div className="social-icons">
-          <FaTwitter className="social-icon" />
-          <FaLinkedin className="social-icon" />
-          <FaFacebook className="social-icon" />
+          <a href="https://x.com/JFPPartyKe?t=uJjr0XghOyTqqQlqtUc5XQ&s=09" target="_blank" rel="noopener noreferrer">
+            <FaTwitter className="social-icon" />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="social-icon" />
+           </a>
+           <a href="#" target="_blank" rel="noopener noreferrer">
+             <FaFacebook className="social-icon" />
+           </a>
         </div>
       </div>
 
       {/* Bottom Navbar */}
       <nav className="navbar">
         {/* Logo */}
-        
-        {/* <div className="logo">{Logo}</div> */}
         <div className="logo"><img src={Logo} alt='JFP Logo' /></div>
-         
         {/* Menu Items - Visible on Medium & Large Screens */}
         <div className="nav-links"> 
           <Link to='/' className="nav-item">Home</Link>
           <Link to='news' className="nav-item">News</Link>
           <Link to='resources' className="nav-item">Resources</Link>
           <Link to='about' className="nav-item">About</Link>
-          <Link to='contact className="nav-item"'>Contacts</Link>
+          <Link to='contact' className="nav-item">Contacts</Link>
         </div>
 
         {/* Register Button - Visible on Medium & Large Screens */}
@@ -51,12 +55,12 @@ function Homepage() {
       {/* Mobile Menu (Only visible when menu is open) */}
       {menuOpen && (
         <div className="mobile-menu">
-          <Link to='/' className="mobile-item">Home</Link>
-          <Link to='news' className="mobile-item">News</Link>
-          <Link to='resources' className="mobile-item">Resources</Link>
-          <Link to='about' className="mobile-item">About</Link>
-          <Link to='contact className="mobile-item"'>Contacts</Link>
-          <button className="mobile-register-btn">Register</button>
+          <Link to='/' className="mobile-item" onClick={() => setMenuOpen(false)}>Home</Link>
+          <Link to='news' className="mobile-item" onClick={() => setMenuOpen(false)}>News</Link>
+          <Link to='resources' className="mobile-item"onClick={() => setMenuOpen(false)}>Resources</Link>
+          <Link to='about' className="mobile-item" onClick={() => setMenuOpen(false)}>About</Link>
+          <Link to='contacts' className="mobile-item" onClick={() => setMenuOpen(false)}>Contacts</Link>
+          <button className="mobile-register-btn" onClick={() => setMenuOpen(false)}>Register</button>
         </div>
         
       )}
