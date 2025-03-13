@@ -1,8 +1,8 @@
 import Team1 from '../assets/Team1-Justus.png'
 import Team2 from '../assets/Team2-Ruben.png'
-import Team3 from '../assets/Team3-Jennifer.jpg'
-import Team4 from '../assets/Team4-Isaac.jpg'
-import Team5 from '../assets/Team5-Hellen.jpg'
+import Team3 from '../assets/Team3-Jennifer.png'
+import Team4 from '../assets/Team4-Isaac.png'
+import Team5 from '../assets/Team5-Hellen.png'
 import Team6 from '../assets/Team6-Joy.png'
 
 
