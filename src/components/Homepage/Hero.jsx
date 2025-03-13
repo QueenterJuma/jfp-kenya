@@ -4,12 +4,16 @@ const Hero = () => {
   return (
     <div className='hero'>
       <div className='hero-content'>
-        <h1>Let's make it happen, Kenya!</h1>
+        <h1>Justice & Freedom</h1>
+        <h2>PARTY OF KENYA</h2>
         <p> To establish a prosperous, industrialized and modern nation, in which all citizens enjoy equal social, economic and democratic rights, and live in unity.</p>
         <div>
           <button type='button'>
-            DONATE
+            REGISTER
           </button> 
+          <button>
+            OUR CONSTITUTION
+          </button>
         </div>
       </div>
     </div>

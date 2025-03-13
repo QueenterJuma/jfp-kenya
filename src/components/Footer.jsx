@@ -1,50 +1,49 @@
-import React from 'react'
-import { 
-  BsFacebook,
-  BsTwitter,
-  BsFillTelephoneForwardFill,
-  BsFillPinMapFill
-} from 'react-icons/bs'
-import { HiMailOpen } from 'react-icons/hi'
+import React from "react";
+import REGISTRATION from '/Reg-Procedure.pdf';
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <footer className='footer'>
-      <div className='footer-col'>
-        <h6>About Us</h6>
-        <p>To establish a prosperous, industrialized and modern nation, in which all citizens enjoy equal social, economic and democratic rights, and live in unity.</p>
-        <div className='social-media-icons'>
-          <a  target='_blank' rel='noopener noreferrer' href='https://web.facebook.com/groups/justusjumafornyakachmp'> <BsFacebook /> </a>
-          <a target='_blank' rel='noopener noreferrer' href='https://twitter.com/JFPPartyKe'> <BsTwitter /> </a>
+    <footer className="container footer">
+      <div className="footer-all">
+        {/* About Section */}
+        <div className="footer-section">
+          <h3>About</h3>
+          <p>To be a conduit to equip, nurture and
+protect social and democratic society
+for edifying of the citizen to unity till
+we be complete and effective globally.</p>
+        </div>
+
+        {/* Quick Links Section */}
+        <div className="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">About JFP</a></li>
+            <li><a href="#">Our Partners</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Latest News</a></li>
+          </ul>
+        </div>
+
+        {/* Contact Section */}
+        <div className="footer-section contact">
+          <h3>Contact Us</h3>
+          <p>Phone: +254 718212888</p>
+          <p>Email: justiceandfreedompartyofkenya@gmail.com</p>
+          <div className="button-group">
+            <a href={REGISTRATION} target='_blank' download>
+              <button type='button'className="btn-footer1" title="Registration" onClick={() => setMenuOpen(false)}>Join Now</button>
+            </a>
+            <button className="btn-footer">Contact Support</button>
+          </div>
         </div>
       </div>
-      <div className='footer-col'>
-        <h6>The Party</h6>
-        <ul>
-          <li> <a href=''>About JFP</a> </li>
-          <li> <a href=''>Mission </a></li>
-          <li> <a href=''>Vission</a> </li>
-          <li> <a href=''>Privacy Policy</a> </li>
-        </ul>
-      </div>
-      <div className='footer-col'>
-        <h6>Useful Links</h6>
-        <ul>
-          <li><a href=''>Our Partners</a></li>
-          <li><a href=''>Become a Donator</a></li>
-          <li><a href=''>Latest News</a></li>
-        </ul>
-      </div>
-      <div className='footer-col get-in-touch'>
-        <h6>Get In Touch</h6>
-        <ul>
-         <p> <span> <BsFillTelephoneForwardFill /> </span> +254 701234567 </p>
-         <p> <span> <HiMailOpen /> </span> JFPPartyKe@gmail.com</p>
-         <p> <span> <BsFillPinMapFill /> </span> Nairobi, Kenya </p>
-        </ul>
+
+      {/* HR Line Below the Footer Sections */}
+      <div className="footer-line">
+        <hr className="line-footer" />
+        <p>© 2025 JFP Party of Kenya. All Rights Reserved.</p>
       </div>
     </footer>
-  )
+  );
 }
-
-export default Footer;

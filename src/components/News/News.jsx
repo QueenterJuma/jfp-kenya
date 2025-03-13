@@ -3,7 +3,7 @@ import {NewsList} from './NewsList';
 
 const News = () => {
   const firstNews = NewsList.slice(0, 1);
-  const secondNews = NewsList.slice(1, 3);
+  // const secondNews = NewsList.slice(1, 3);
 
   return (
     <div className='news'>

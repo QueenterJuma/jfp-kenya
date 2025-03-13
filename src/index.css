@@ -1,1 +1,714 @@
+/* General Styles */
+.banner {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding: 50px; */
+    background-color: #450243;
+    height: 70vh;
+  }
+  
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30px; */
+   
+  }
+  
+  .banner-title {
+    font-size: 2.5rem;
+    color: #fcf7f7;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: rgb(237, 233, 7); 
+    font-size: 2.0rem;
+  }
+  
+  .banner-text {
+    font-size: 1.2rem;
+    color: #fff;
+    /* margin: 20px 0;
+    line-height: 1.6; */
+  }
+  
+  .banner-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #ffd500;
+    color: rgb(87, 3, 108);
+    font-weight: 600;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e5e8ec;
+  }
+  
+  .btn-secondary {
+    background-color: #fffbfb;
+    color: rgb(40, 2, 45);
+    font-weight: 600;
+  }
+  
+  .btn-secondary:hover {
+    border: 2px solid white;
+    background-color: inherit;
+    color: #e5e8ec;
+  }
+  
+  /* Right Side - Background Image */
+  .banner-image {
+    flex: 1;
+    min-height: 100%; 
+    background-image: url("../src/assets/jfp-hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
 
+  .mission-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+  }
+  
+  /* Left Side */
+  .mission-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(244, 243, 243, 0.703);
+  }
+  
+  .welcome-text {
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .thin-line {
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    margin: 10px 0;
+  }
+  
+  .party-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+  }
+  
+  .slogan {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  /* Right Side */
+  .mission-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .section-text {
+    font-size: 18px;
+    max-width: 400px;
+    color: black;
+  }
+  /* Top Navbar */
+.top-navbar {
+    background-color: #73047d;
+
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 16px;
+    font-size: 18px;
+  }
+  
+  .contact-info {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    cursor: pointer;
+    transition: color 0.3s;
+    gap: 20px;
+  }
+  
+  .social-icon:hover {
+    color: rgb(228, 230, 173);
+  }
+  
+  /* Bottom Navbar */
+  .navbar {
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 16px; */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  .logo img {
+    width: 10%;
+  }
+
+ 
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: black;
+  }
+  
+  .nav-item {
+    cursor: pointer;
+    color: rgb(4, 4, 4);
+    transition: color 0.3s;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .nav-item:hover {
+    color: #4b045a;
+  }
+  
+  /* Register Button */
+  .register-btn {
+    background-color: #f8bf04;
+    color: rgb(67, 4, 85);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  .register-btn:hover {
+    border: 2px solid black;
+    background-color: inherit;
+    color: #3c024f;
+  }
+  
+  /* Hamburger Menu (for mobile) */
+  .hamburger-menu {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: rgb(4, 4, 4);
+  }
+  
+  /* Mobile Menu */
+  .mobile-menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .mobile-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+    text-decoration: none;
+  }
+  
+  .mobile-item:hover {
+    color: #007bff;
+  }
+  
+  .mobile-register-btn {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mobile-register-btn:hover {
+    background-color: #0056b3;
+  }
+  /* membership */
+  /* Center the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: #780490;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+  }
+  
+  /* Membership box */
+  .membership-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    color: white;
+   height: 100%;
+    width: 100%;
+  }
+  
+  /* Headings and paragraph */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #fefafa;
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons container */
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Buttons styling */
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+  }
+  
+  /* Button colors */
+  .btn-join {
+    background: inherit;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-weight: 800;
+    padding: 10px;
+  }
+  
+  .btn-join:hover {
+    background: #efc703;
+  }
+  
+  .btn-learn {
+    background: #fafcfd;
+    color: rgb(10, 1, 23);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 800;
+  }
+
+  .btn-learn:hover {
+    background: #efc703;
+    color: black;
+  }
+  
+  .learn:hover {
+    background: #545b62;
+  }
+
+  /* Team */
+
+  /* General container */
+.team-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header section */
+  .team-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  /* Horizontal line styles */
+  .line {
+    flex-grow: 1;
+    border: none;
+    height: 2px;
+    background-color: #333;
+  }
+  
+  /* Team members container */
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Individual team card */
+  .team-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 180px;
+  }
+  
+  .team-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .team-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .team-card p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #e6b800;
+  }
+
+  /* Footer Container */
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #450243;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    height: fit-content;
+    
+  }
+  
+  /* Footer Content Layout */
+  .footer-all {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* background-color: #003d82; */
+  }
+  
+  /* Footer Sections */
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+    
+  }
+
+  .footer-section p{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  /* Headings */
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    /* border-bottom: 2px solid #fff; */
+    padding-bottom: 5px;
+  }
+  
+  /* Quick Links */
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Buttons */
+  .button-group {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .btn-footer {
+    background: #650384;
+    color: rgb(245, 242, 242);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+
+  .btn-footer1 {
+    background: inherit;
+    color: rgb(245, 242, 242);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: 0.3s;
+    border: 2px solid white;
+
+  }
+  
+  .btn-footer:hover {
+    background: #e6b800;
+  }
+
+  .btn-footer1:hover {
+    background: #3c024f;
+  }
+  
+  /* HR Line */
+  .footer-line {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  
+  .line-footer {
+    width: 90%;
+    border: 1px solid #fff;
+  }
+  
+  /* Responsive: Stack in column on small screens */
+  @media (max-width: 768px) {
+    .footer-all {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .team-members {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  
+  /* Responsive design for small screens */
+  @media (max-width: 480px) {
+    .button-group {
+      flex-direction: column;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links,
+    .register-btn {
+      display: none;
+    }
+  
+    .hamburger-menu {
+      display: block;
+    }
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .mission-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .mission-left, .mission-right {
+      width: 100%;
+    }
+  }
+  
+  /* 📌 Responsive Design with Media Queries */
+  
+  /* Medium Screens (Tablets) */
+  @media screen and (max-width: 1024px) {
+    .banner {
+      flex-direction: column;
+      text-align: center;
+      /* padding: 30px; */
+    }
+  
+    .banner-content {
+      width: 100%;
+    }
+  
+    .banner-image {
+      width: 100%;
+      height: 300px;
+      margin-top: 20px;
+    }
+  
+    .banner-buttons {
+      justify-content: center;
+    }
+  }
+  
+  /* Small Screens (Phones) */
+  @media screen and (max-width: 768px) {
+    .banner-title {
+      font-size: 2rem;
+    }
+  
+    .banner-text {
+      font-size: 1rem;
+    }
+  
+    .btn {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+  
+    .banner-image {
+      height: 250px;
+    }
+  }
+
+  .team-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .team-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .line {
+    width: 50px;
+    height: 2px;
+    background: black;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-container {
+    width: 150px; 
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .image-container img {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .team-name {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .team-card p {
+    margin-top: -5px;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  
