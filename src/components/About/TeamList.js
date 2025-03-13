@@ -1,4 +1,4 @@
-// //import Team1 from '../assets/Team1-Justus.png'
+// import Team1 from '../ass'
 // import Team2 from '../assets/Team2-Ruben.png'
 // import Team3 from '../assets/Team3-Jennifer.jpg'
 // import Team4 from '../assets/Team4-Isaac.jpg'
