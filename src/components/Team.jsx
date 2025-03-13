@@ -36,8 +36,8 @@ export default function Team() {
 const teamData = [
   { name: "Justus Juma", role: "Party Leader", image: Team1 },
   { name: "Ruben Kigame", role: "Deputy-Party Leader", image: Team2 },
-  { name: "Isaac Aluoch Aluochier", role: "Chairman", image: Team3 },
-  { name: "Jennifer Njeri Kanari", role: "Secretary General", image: Team4 },
+  { name: "Jennifer Njeri Kanari", role: "Secretary General", image: Team3 },
+  { name: "Isaac Aluoch Aluochier", role: "Chairman", image: Team4 },
   { name: "Hellen Akoth Omolo Mtawali", role: "Organizing Secretary", image: Team5 },
   { name: "Joy Kiruki", role: "Treasure", image: Team6 },
 ];
