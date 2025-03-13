@@ -44,7 +44,7 @@ function Homepage() {
 
         {/* Register Button - Visible on Medium & Large Screens */}
         <div>
-          <a href={REGISTRATION} target='_blank' download>
+          <a href={REGISTRATION} target='_blank' download rel="noreferrer">
             <button type='button'className="register-btn" title="Registration">Register</button>
           </a>
         </div>

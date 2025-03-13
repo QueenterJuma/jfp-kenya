@@ -20,8 +20,10 @@ export default function Team() {
       <div className="team-members">
         {teamData.map((member, index) => (
           <div key={index} className="team-card">
-            <img src={member.image} alt={member.name} />
-            <h3>{member.name}</h3>
+            <div className="image-container">
+              <img src={member.image} alt={member.name} />
+            </div>
+            <h3 className="team-name">{member.name}</h3>
             <p>{member.role}</p>
           </div>
         ))}
@@ -30,12 +32,12 @@ export default function Team() {
   );
 }
 
-//team data 
+// Team data 
 const teamData = [
-  { name: "Justus Juma", role:"Party Leader", image: Team1},
-  { name: "Ruben Kigame", role:"Deputy-Party Leader", image: Team2},
-  { name: "Isaac Aluoch Aluochier", role:"Chairman", image: Team3},
-  { name: "Jennifer Njeri Kanari", role:"Secretary General", image: Team4},
-  { name: "Hellen Akoth Omolo Mtawali", role:"Organizing Secretary", image: Team5},
-  { name: "Joy Kiruki", role:"Treasure", image: Team6 },
+  { name: "Justus Juma", role: "Party Leader", image: Team1 },
+  { name: "Ruben Kigame", role: "Deputy-Party Leader", image: Team2 },
+  { name: "Isaac Aluoch Aluochier", role: "Chairman", image: Team3 },
+  { name: "Jennifer Njeri Kanari", role: "Secretary General", image: Team4 },
+  { name: "Hellen Akoth Omolo Mtawali", role: "Organizing Secretary", image: Team5 },
+  { name: "Joy Kiruki", role: "Treasure", image: Team6 },
 ];
