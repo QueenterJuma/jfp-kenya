@@ -353,6 +353,7 @@
     border-radius: 5px;
     border: 2px solid white;
     font-weight: 800;
+    padding: 10px;
   }
   
   .btn-join:hover {
