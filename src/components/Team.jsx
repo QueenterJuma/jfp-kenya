@@ -39,5 +39,5 @@ const teamData = [
   { name: "Jennifer Njeri Kanari", role: "Secretary General", image: Team3 },
   { name: "Isaac Aluoch Aluochier", role: "Chairman", image: Team4 },
   { name: "Hellen Akoth Omolo Mtawali", role: "Organizing Secretary", image: Team5 },
-  { name: "Joy Kiruki", role: "Treasure", image: Team6 },
+  { name: "Joy Kiruki", role: "Treasurer", image: Team6 },
 ];
