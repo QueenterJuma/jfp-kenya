@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from 'react-router-dom';
-import { FaBars, FaTimes, FaPhone, FaEnvelope, FaTwitter, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { FaBars, FaTimes, FaPhone, FaTwitter, FaLinkedin, FaFacebook } from "react-icons/fa";
 import REGISTRATION from '/Reg-Procedure.pdf';
 import Logo from '../assets/log1.jpg'
 
@@ -12,7 +12,7 @@ function Homepage() {
       {/* Top Navbar */}
       <div className=" top-navbar">
         <div className="contact-info">
-          <span className="contact-item"><FaEnvelope /> justiceandfreedompartyofkenya@gmail.com</span>
+          {/* <span className="contact-item"><FaEnvelope /> justiceandfreedompartyofkenya@gmail.com</span> */}
           <span className="contact-item"><FaPhone /> +254718212888</span>
         </div>
         
