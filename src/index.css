@@ -77,10 +77,11 @@
   .banner-image {
     flex: 1;
     min-height: 100%; 
-    background-image: url("../src/assets/jfp-hero-background.jpg");
+    background-image: url("../src/assets/hero-part.png");
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+    /* box-sizing: border-box; */
   }
 
   .mission-container {
