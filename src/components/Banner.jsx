@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsDownload } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 import CONSTITUTION from '/Constitution.pdf';
 import REGISTRATION from '/Reg-Procedure.pdf';
 import Membership from "./Membership";
@@ -27,6 +28,11 @@ function Banner() {
             <button className="btn btn-secondary" title="Constitution">OUR CONSTITUTION <BsDownload /></button>
           </a>
           
+        </div>
+        <div className="donate-button-wrapper">
+          <Link to="/donate" className="donate-button">
+          Donate Now
+          </Link>
         </div>
       </div>
 
