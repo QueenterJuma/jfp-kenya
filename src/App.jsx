@@ -4,6 +4,7 @@ import './App.css'
 // import Home from './pages/Home'
 import Footer from './components/Footer'
 import News from './pages/News';
+import Donate from './pages/Donate';
 import Resources from './components/Resources/Resources'
 import Banner from './components/Banner'
 import Homepage from './components/Homepage'
@@ -16,6 +17,7 @@ function App() {
   <Homepage />
         <Routes>
           <Route path='/' element={ <Banner/> } />
+          <Route path='donate' element={<Donate />} />
           <Route path='/news' element={ <News /> } />
           <Route path='/resources' element={ <Resources /> } />
         {/*  <Route path='/about' element={ <About /> } />
