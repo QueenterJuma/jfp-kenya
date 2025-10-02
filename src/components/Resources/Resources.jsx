@@ -2,6 +2,9 @@ import React from 'react'
 import { BsDownload } from 'react-icons/bs';
 import CONSTITUTION from '/Constitution.pdf';
 import REGISTRATION from '/Reg-Procedure.pdf';
+import BALANCE from '/Financials-tri-balance.pdf';
+import IPSAS from '/Annual-IPSAS-Accrual.pdf'
+import STATEMENT2023 from '/Stateme2023-24.png'; 
 
 const Resources = () => {
   return (
@@ -23,6 +26,30 @@ const Resources = () => {
         title="Registration"
       >
         Registration Procedure <BsDownload />
+      </button></a>
+
+      <a href={BALANCE} target='_blank' download><button
+        type='button'
+        className=""
+        title="Balance"
+      >
+        Trial Balance 30th June 2025 <BsDownload />
+      </button></a>
+
+      <a href={IPSAS} target='_blank' download><button
+        type='button'
+        className=""
+        title="Ipsas"
+      >
+        JFP Annual-IPSAS-Accrual <BsDownload />
+      </button></a>
+
+      <a href={STATEMENT2023} target='_blank' download><button
+        type='button'
+        className=""
+        title="statement2023"
+      >
+        Statement 2023-2024 <BsDownload />
       </button></a>
     </div>
   )
