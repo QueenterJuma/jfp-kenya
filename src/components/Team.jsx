@@ -1,8 +1,8 @@
 import Team1 from '../assets/Team1-Justus.png'
-import Team3 from '../assets/Team3-caroline.png'
-import Team4 from '../assets/Team4-Isaac.png'
-import Team5 from '../assets/Team5-Hellen.png'
-import Team6 from '../assets/Team6-Joy.png'
+import Team2 from '../assets/Team2-Halima.png'
+import Team3 from '../assets/Team3-Isaac.png'
+import Team4 from '../assets/Team4-caroline.png'
+import Team5 from '../assets/Team5-Joy.png'
 
 
 export default function Team() {
@@ -34,8 +34,8 @@ export default function Team() {
 // Team data 
 const teamData = [
   { name: "Justus Juma", role: "Party Leader", image: Team1 },
-  { name: "Caroline Jerotich Chebii", role: "Secretary General", image: Team3 },
-  { name: "Isaac Aluoch Aluochier", role: "Chairman", image: Team4 },
-  { name: "Hellen Akoth Omolo Mtawali", role: "Organizing Secretary", image: Team5 },
-  { name: "Joy Kiruki", role: "Treasurer", image: Team6 },
+  { name: "Halima Bakari", role: "Secretary General", image: Team2 },
+  { name: "Isaac Aluoch Aluochier", role: "Chairman", image: Team3 },
+  { name: "Caroline Jerotich Chebii", role: "Organizing Secretary", image: Team4 },
+  { name: "Joy Kiruki", role: "Treasurer", image: Team5 },
 ];
