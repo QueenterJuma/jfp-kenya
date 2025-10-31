@@ -2,7 +2,8 @@ import React from 'react'
 import { BsDownload } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import CONSTITUTION from '/Constitution.pdf';
-import REGISTRATION from '/Reg-Procedure.pdf';
+import REGISTRATION from '../assets/Reg-Procedure.jpeg';
+// import REGISTRATION from '/Reg-Procedure.pdf';
 import Membership from "./Membership";
 import Mission from "./Mission";
 import Team from "./Team";
