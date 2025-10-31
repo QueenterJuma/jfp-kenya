@@ -1,4 +1,4 @@
-import Xspace from '../../assets/xspace.png'
+import Xspace from '../../assets/xspace.png';
 
 export const EventsList = [
   {
