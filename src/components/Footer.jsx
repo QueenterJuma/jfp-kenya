@@ -1,5 +1,5 @@
 import React from "react";
-import REGISTRATION from '/Reg-Procedure.pdf';
+import REGISTRATION from '../assets/Reg-Procedure.jpeg';
 
 export default function Footer() {
   return (
