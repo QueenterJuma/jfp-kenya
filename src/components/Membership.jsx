@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsDownload } from 'react-icons/bs';
 import CONSTITUTION from '/Constitution.pdf';
-import REGISTRATION from '/Reg-Procedure.pdf';
+import REGISTRATION from '../assets/Reg-Procedure.jpeg'
 
 function Membership() {
   return (

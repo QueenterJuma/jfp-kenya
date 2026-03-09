@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes, FaPhone, FaTwitter, FaLinkedin, FaFacebook } from "react-icons/fa";
-import REGISTRATION from '/Reg-Procedure.pdf';
+import REGISTRATION from '../assets/Reg-Procedure.jpeg'
+// import REGISTRATION from '/Reg-Procedure.pdf';
 import Logo from '../assets/log1.jpg'
 
 function Homepage() {

@@ -9,7 +9,7 @@ function Mission() {
         <div className="thin-line"></div>
         <p className="party-name">Justice & Freedom <br /> Party of Kenya</p>
         <div className="thin-line"></div>
-        <h1 className="slogan">Haki na Ukweli</h1>
+        <h1 className="slogan">UKWELI na HAKI</h1>
       </div>
 
       {/* Right Side */}
@@ -17,8 +17,7 @@ function Mission() {
         <div className="section">
           <h2 className="section-title">Mission</h2>
           <p className="section-text">
-          To be a conduit to equip, nature and protect social and democratic society 
-for edifying of the citizen to unity till we be complete and effective globally.
+          To be a conduit to equip, nurture and protect social and democratic society for edifying of the citizen to unity, till we be complete and effective globally.
           </p>
         </div>
         <div className="section">
